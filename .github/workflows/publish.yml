@@ -17,7 +17,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghrc.io/phouthalanag-pygnasak/publish-packages/game
+          images: ghcr.io/phouthalanag-pygnasak/publish-packages/game
           tags: type=sha
       - name: Login with GHCR
         uses: docker/login-actions@v3
